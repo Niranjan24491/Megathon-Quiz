@@ -12,8 +12,8 @@ import {
   Alert
 } from "react-bootstrap";
 
-const QUESTIONS_DATA_URL = "http://localhost:3000/questions";
-const CORRECT_ANSWERS_DATA_URL = "http://localhost:3000/correctAnswers";
+const QUESTIONS_DATA_URL = `${location.origin}/questions`;
+const CORRECT_ANSWERS_DATA_URL = `${location.origin}/correctAnswers`;
 
 export default class Questions extends Component {
   constructor(props) {
