@@ -1,0 +1,49 @@
+.quiz-banner {
+  min-height: 150px;
+  background-color: black;
+  text-align: center;
+  font-family: "Saira Extra Condensed", sans-serif;
+
+  h1 {
+    font-size: 77px;
+    font-weight: bold;
+  }
+
+  img {
+    width: 10%;
+  }
+}
+
+.login-banner {
+  margin-top: 3%;
+  font-family: "Saira Extra Condensed", sans-serif;
+
+  .form-control {
+    margin-top: 5%;
+  }
+
+  .label-default,
+  .btn-success {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 19px;
+  }
+}
+
+.questions-banner {
+  font-family: "Saira Extra Condensed", sans-serif;
+  overflow-y: auto;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.alert {
+  width: 30%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
